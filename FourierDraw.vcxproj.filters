@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="_ClassCpp">
+      <UniqueIdentifier>{b67a85ba-2cf4-44ea-9514-98160a3f2524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_ClassHpp">
+      <UniqueIdentifier>{065d17d9-2f34-49f8-a465-e7a6fcf13883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_GuiClassCpp">
+      <UniqueIdentifier>{beae1204-4965-4b7e-ac5c-8aeec7014039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_GuiClassHpp">
+      <UniqueIdentifier>{b854dc65-cace-441d-9b17-03b2ee7a90ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="_ClassCpp\fftAnalysis.cpp">
+      <Filter>_ClassCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="fourierwidget.cpp">
+      <Filter>_ClassCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="_ClassCpp\readBmp.cpp">
+      <Filter>_ClassCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="_ClassCpp\struct.cpp">
+      <Filter>_ClassCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="_GuiClassCpp\openglwindow.cpp">
+      <Filter>_GuiClassCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="_GuiClassCpp\rasterwindow.cpp">
+      <Filter>_GuiClassCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="_GuiClassCpp\clockDemo.cpp">
+      <Filter>_GuiClassCpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="myDefine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_ClassHpp\struct.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_ClassHpp\readBmp.hpp">
+      <Filter>_ClassHpp</Filter>
+    </ClInclude>
+    <ClInclude Include="_GuiClassHpp\clockDemo.hpp">
+      <Filter>_GuiClassHpp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="fourierwidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_ClassHpp\fftAnalysis.hpp">
+      <Filter>_ClassHpp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="fourierwidget.h">
+      <Filter>_ClassHpp</Filter>
+    </QtMoc>
+    <QtMoc Include="_GuiClassHpp\openglwindow.h">
+      <Filter>_GuiClassHpp</Filter>
+    </QtMoc>
+    <QtMoc Include="_GuiClassHpp\rasterwindow.h">
+      <Filter>_GuiClassHpp</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
