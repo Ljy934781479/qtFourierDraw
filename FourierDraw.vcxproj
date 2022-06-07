@@ -187,7 +187,6 @@
     </QtUic>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="_ClassCpp\fftAnalysis.cpp" />
     <ClCompile Include="fourierwidget.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="_ClassCpp\readBmp.cpp" />
@@ -197,7 +196,6 @@
     <ClCompile Include="_GuiClassCpp\rasterwindow.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="_ClassHpp\fftAnalysis.hpp" />
     <ClInclude Include="_GuiClassHpp\clockDemo.hpp" />
     <QtMoc Include="_GuiClassHpp\rasterwindow.h" />
     <QtMoc Include="_GuiClassHpp\openglwindow.h" />
